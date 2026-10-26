@@ -1,0 +1,27 @@
+{
+  "release_id": "cfrnadb-demo-20261026",
+  "version": "demo-0.1.0",
+  "data_kind": "synthetic",
+  "release_date": "2026-10-26",
+  "description": "Synthetic fixtures for interface development. No real samples, clinical metadata, or research measurements.",
+  "counts": {
+    "studies": 3,
+    "samples": 24,
+    "features": 48,
+    "measurements": 2592
+  },
+  "files": [
+    {
+      "path": "data/demo-release.json",
+      "bytes": 586297,
+      "sha256": "02743db3ffe61286c4a1a038fd57a14a78988395bc71883a9e6e43812593eaba"
+    }
+  ],
+  "measurement_states": {
+    "observed": "A simulated measurement is available. Zero is a valid observed value.",
+    "not_measured": "This feature/channel was not measured in this simulated sample.",
+    "failed": "A simulated processing failure; no measurement is available.",
+    "low_depth": "A simulated depth threshold was not met; the displayed measurement is unavailable."
+  },
+  "reference_note": "DEMO_REFERENCE_v1 is a fixture marker, not a biological reference assembly. Coordinates are deliberately unspecified."
+}
