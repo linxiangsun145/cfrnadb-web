@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/v1/portal/examples",
+      "destination": "/open/examples/catalog.json"
+    },
+    {
+      "source": "/v1/portal/examples/:id/:file",
+      "destination": "/open/examples/:id/:file"
+    },
+    {
       "source": "/v1/:path*",
       "destination": "https://laptop-ijqrjhli.taile94b7b.ts.net/v1/:path*"
     },
