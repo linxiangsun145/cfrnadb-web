@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "feature": "ENSG00000133703.11",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 0,
+      "q1": 16.571068641108,
+      "median": 23.042473320958774,
+      "q3": 27.458307432779417
+    },
+    {
+      "feature": "ENSG00000133703.11",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 1,
+      "q1": 9.382588605214472,
+      "median": 13.512468614579813,
+      "q3": 21.88939651906553
+    },
+    {
+      "feature": "ENSG00000133703.11",
+      "kind": "cfrnapro",
+      "unit": "natural_log_KL_from_uniform",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 3,
+      "missing": 114,
+      "zero": 0,
+      "q1": 0.8090491025743035,
+      "median": 0.9230599739343412,
+      "q3": 0.9473493153837997
+    },
+    {
+      "feature": "ENSG00000133703.11",
+      "kind": "cfrnapro",
+      "unit": "natural_log_KL_from_uniform",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 1,
+      "missing": 283,
+      "zero": 0,
+      "q1": 1.1585763419281137,
+      "median": 1.1585763419281137,
+      "q3": 1.1585763419281137
+    }
+  ],
+  "paired_n": 4,
+  "spearman_rho": -1.0,
+  "by_pipeline_strandedness": {
+    "forward": {
+      "n": 1,
+      "rho": null
+    },
+    "reverse": {
+      "n": 3,
+      "rho": -1.0
+    }
+  },
+  "matplotlib_version": "3.10.6",
+  "interpretation": "Descriptive resource example, not diagnostic validation. Subjects and physical libraries are unconfirmed. Shared reads and protocol/batch can influence associations."
+}

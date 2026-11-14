@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 0,
+      "q1": 27.866043177677884,
+      "median": 39.40315966153243,
+      "q3": 53.702777615397366
+    },
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 0,
+      "q1": 13.45532473016916,
+      "median": 23.912692127907736,
+      "q3": 38.50984741726998
+    },
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "cfrnapro",
+      "unit": "natural_log_KL_from_uniform",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 2,
+      "missing": 115,
+      "zero": 0,
+      "q1": 1.7399224947143357,
+      "median": 1.9946173174637314,
+      "q3": 2.249312140213127
+    },
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "cfrnapro",
+      "unit": "natural_log_KL_from_uniform",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 3,
+      "missing": 281,
+      "zero": 0,
+      "q1": 2.524575047132673,
+      "median": 2.590173362738817,
+      "q3": 2.6137221024569746
+    },
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "ap_usage",
+      "unit": "within_gene_promoter_usage_fraction",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 0,
+      "q1": 0.5517953873358495,
+      "median": 0.7061544514736626,
+      "q3": 1.0
+    },
+    {
+      "feature": "ENSG00000141510.16",
+      "kind": "ap_usage",
+      "unit": "within_gene_promoter_usage_fraction",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 0,
+      "q1": 0.5653651310605802,
+      "median": 0.6828707521778956,
+      "q3": 1.0
+    }
+  ],
+  "matplotlib_version": "3.10.6",
+  "interpretation": "Descriptive resource example, not diagnostic validation. Subjects and physical libraries are unconfirmed. Shared reads and protocol/batch can influence associations."
+}

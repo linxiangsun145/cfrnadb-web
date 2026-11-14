@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "feature": "ENSG00000119888.10",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 87,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.5150151381083145
+    },
+    {
+      "feature": "ENSG00000119888.10",
+      "kind": "mRNA_lncRNA",
+      "unit": "TPM_all_featureCounts_genes_exon_union_length",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 133,
+      "q1": 0.0,
+      "median": 0.3936265183677052,
+      "q3": 1.6281227046955093
+    },
+    {
+      "feature": "ENSG00000119888.10|chr2:47345158:+",
+      "kind": "ap",
+      "unit": "salmon_transcript_TPM_sum",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 108,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0
+    },
+    {
+      "feature": "ENSG00000119888.10|chr2:47345158:+",
+      "kind": "ap",
+      "unit": "salmon_transcript_TPM_sum",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 230,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0
+    },
+    {
+      "feature": "ENSG00000119888.10|chr2:47369148:+",
+      "kind": "ap",
+      "unit": "salmon_transcript_TPM_sum",
+      "group": "healthy",
+      "source_labels": 117,
+      "measured": 117,
+      "missing": 0,
+      "zero": 105,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0
+    },
+    {
+      "feature": "ENSG00000119888.10|chr2:47369148:+",
+      "kind": "ap",
+      "unit": "salmon_transcript_TPM_sum",
+      "group": "PDAC",
+      "source_labels": 284,
+      "measured": 284,
+      "missing": 0,
+      "zero": 240,
+      "q1": 0.0,
+      "median": 0.0,
+      "q3": 0.0
+    }
+  ],
+  "matplotlib_version": "3.10.6",
+  "interpretation": "Descriptive resource example, not diagnostic validation. Subjects and physical libraries are unconfirmed. Shared reads and protocol/batch can influence associations."
+}
