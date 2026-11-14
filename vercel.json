@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/v1/:path*",
+      "destination": "https://laptop-ijqrjhli.taile94b7b.ts.net/v1/:path*"
+    },
+    {
+      "source": "/healthz",
+      "destination": "https://laptop-ijqrjhli.taile94b7b.ts.net/healthz"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/v1/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
+}
