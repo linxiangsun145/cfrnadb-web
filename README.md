@@ -11,3 +11,5 @@ Historical AS/editing/Mutation/fusion run-specific QC artifacts remain unavailab
 The frontend is static Vercel hosting. Anonymous read-only API requests use an isolated PostgreSQL projection via HTTPS; the private API and its database are separate. Availability currently depends on the Mac, Windows gateway and connecting network. Retained immutable source releases support migration.
 
 Source study: GSE133684, PMID 31562239, DOI 10.1136/gutjnl-2019-318860. Interface workflows reference cfOmics, exoRBase 3.0 and EVAtlas. Cite the original data and release. Third-party data remain subject to applicable source terms; this repository does not assert a blanket third-party data license.
+
+All twelve channels across the four open views have frozen, checksum-verified complete ZIPs distributed by static hosting. The download catalog is public-downloads.json.

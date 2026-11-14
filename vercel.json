@@ -1,8 +1,24 @@
 {
   "rewrites": [
     {
+      "source": "/v1/portal/downloads/d6c2781ca86ead895a8bc4cb335ec1ccd82a1e372b8a096fa1668a24744a442e/file",
+      "destination": "/downloads/d6c2781ca86ead895a8bc4cb335ec1ccd82a1e372b8a096fa1668a24744a442e.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/5ce0dbe04ee8b62d410a0291527515b1d693f2f440fdc5fd61da4d11a365a8ca/file",
+      "destination": "/downloads/5ce0dbe04ee8b62d410a0291527515b1d693f2f440fdc5fd61da4d11a365a8ca.zip"
+    },
+    {
       "source": "/v1/portal/downloads/a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9/file",
       "destination": "/downloads/a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/e5cac3c5b0cefa3676f91f57397af742ef5c0cc4d79cfd5309ef0f4732c42129/file",
+      "destination": "/downloads/e5cac3c5b0cefa3676f91f57397af742ef5c0cc4d79cfd5309ef0f4732c42129.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/ccf342298c46e8fc6566ca56f6b451f96afc35609c60f72c09da82eeefe64deb/file",
+      "destination": "/downloads/ccf342298c46e8fc6566ca56f6b451f96afc35609c60f72c09da82eeefe64deb.zip"
     },
     {
       "source": "/v1/portal/downloads/0665160ff131b9d4dbd8064c546834038e7a052be241adfba0661509fef6b731/file",
@@ -13,8 +29,24 @@
       "destination": "/downloads/303fe1339e54977a3d80f5532c8ee1e109827fd74d09678846949976291d9d4a.zip"
     },
     {
+      "source": "/v1/portal/downloads/181d5c58e0706fe4cd4b2abd971c23f92c228fdd77b0be845e0484c9ad76696f/file",
+      "destination": "/downloads/181d5c58e0706fe4cd4b2abd971c23f92c228fdd77b0be845e0484c9ad76696f.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/54415f743765449b149511ce3691d758513c1695e2aa3c8e6f8617622d325613/file",
+      "destination": "/downloads/54415f743765449b149511ce3691d758513c1695e2aa3c8e6f8617622d325613.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/5a9416ea5754f58229161e13513301b45b2f07987fca7058f9438b0c0b2c9495/file",
+      "destination": "/downloads/5a9416ea5754f58229161e13513301b45b2f07987fca7058f9438b0c0b2c9495.zip"
+    },
+    {
       "source": "/v1/portal/downloads/a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4/file",
       "destination": "/downloads/a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4.zip"
+    },
+    {
+      "source": "/v1/portal/downloads/b5895d3c948b8972571b20070c399e85ab4c2345afba35c3e1ccbee1e047ba88/file",
+      "destination": "/downloads/b5895d3c948b8972571b20070c399e85ab4c2345afba35c3e1ccbee1e047ba88.zip"
     },
     {
       "source": "/v1/portal/examples",
@@ -35,6 +67,32 @@
   ],
   "headers": [
     {
+      "source": "/downloads/d6c2781ca86ead895a8bc4cb335ec1ccd82a1e372b8a096fa1668a24744a442e.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-cfrnapro-counts.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/5ce0dbe04ee8b62d410a0291527515b1d693f2f440fdc5fd61da4d11a365a8ca.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-cfrnapro-mean_coverage.zip\""
+        }
+      ]
+    },
+    {
       "source": "/downloads/a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9.zip",
       "headers": [
         {
@@ -43,7 +101,33 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"cfrnadb-gut401-cfrnapro.zip\""
+          "value": "attachment; filename=\"cfrnadb-gut401-cfrnapro-kl.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/e5cac3c5b0cefa3676f91f57397af742ef5c0cc4d79cfd5309ef0f4732c42129.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-mRNA_lncRNA-counts.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/ccf342298c46e8fc6566ca56f6b451f96afc35609c60f72c09da82eeefe64deb.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-mRNA_lncRNA-cpm.zip\""
         }
       ]
     },
@@ -56,7 +140,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"cfrnadb-gut401-mRNA_lncRNA.zip\""
+          "value": "attachment; filename=\"cfrnadb-gut401-mRNA_lncRNA-tpm.zip\""
         }
       ]
     },
@@ -69,7 +153,46 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"cfrnadb-gut401-ap_usage.zip\""
+          "value": "attachment; filename=\"cfrnadb-gut401-ap_usage-major.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/181d5c58e0706fe4cd4b2abd971c23f92c228fdd77b0be845e0484c9ad76696f.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-ap_usage-minor.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/54415f743765449b149511ce3691d758513c1695e2aa3c8e6f8617622d325613.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-ap_usage-inactive.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/5a9416ea5754f58229161e13513301b45b2f07987fca7058f9438b0c0b2c9495.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-ap-counts.zip\""
         }
       ]
     },
@@ -82,7 +205,20 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"cfrnadb-gut401-ap.zip\""
+          "value": "attachment; filename=\"cfrnadb-gut401-ap-tpm.zip\""
+        }
+      ]
+    },
+    {
+      "source": "/downloads/b5895d3c948b8972571b20070c399e85ab4c2345afba35c3e1ccbee1e047ba88.zip",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"cfrnadb-gut401-ap-usage.zip\""
         }
       ]
     }
