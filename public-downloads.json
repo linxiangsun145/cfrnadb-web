@@ -1,0 +1,42 @@
+{
+  "format": "cfrnadb.public-primary-bundles.v1",
+  "release": "public-2026.11.14",
+  "bundles": [
+    {
+      "kind": "cfrnapro",
+      "id": "a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9",
+      "bytes": 15344919,
+      "sha256": "65b042b469b3c6683c96771dbfaed66ae3847b2bab08803869cb6fed5e695c70",
+      "features": 56407,
+      "source_labels": 401,
+      "url": "/downloads/a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9.zip"
+    },
+    {
+      "kind": "mRNA_lncRNA",
+      "id": "0665160ff131b9d4dbd8064c546834038e7a052be241adfba0661509fef6b731",
+      "bytes": 52676115,
+      "sha256": "a427ff161bbdd37fa1748f06af32182dc862b898245eb463da16ef6be2b12dc7",
+      "features": 29027,
+      "source_labels": 401,
+      "url": "/downloads/0665160ff131b9d4dbd8064c546834038e7a052be241adfba0661509fef6b731.zip"
+    },
+    {
+      "kind": "ap_usage",
+      "id": "303fe1339e54977a3d80f5532c8ee1e109827fd74d09678846949976291d9d4a",
+      "bytes": 27626317,
+      "sha256": "f7c1dabdc42c4b24074f76ba81720557ba3c037e2f4158ea6f15b550cb59d41f",
+      "features": 21417,
+      "source_labels": 401,
+      "url": "/downloads/303fe1339e54977a3d80f5532c8ee1e109827fd74d09678846949976291d9d4a.zip"
+    },
+    {
+      "kind": "ap",
+      "id": "a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4",
+      "bytes": 70944831,
+      "sha256": "fc71f9c45193e05561f3e678ff05e27b26903223c6e72d2f4bdb1f2e66c519ef",
+      "features": 128514,
+      "source_labels": 401,
+      "url": "/downloads/a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4.zip"
+    }
+  ]
+}
