@@ -1,0 +1,5 @@
+dataset_id	kind	features	mapped_features	unmapped_features	distinct_source_gene_ids
+23b25b04-93f9-5a1b-9eca-bff159ae153d	cfrnapro	56407	56364	43	56364
+2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9	mRNA_lncRNA	29027	29001	26	29001
+4d4f4d4d-c85d-5393-9a5c-f60695682221	ap_usage	21417	21395	22	21395
+dd34fb31-7967-5d2f-b900-6dc9c353723d	ap	128514	128411	103	21395

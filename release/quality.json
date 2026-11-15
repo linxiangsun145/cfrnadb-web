@@ -1,0 +1,142 @@
+{
+  "format": "cfrnadb.quality-summary.v1",
+  "datasets": [
+    {
+      "dataset_id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "study": "GSE133684",
+      "kind": "cfrnapro",
+      "features": 56407,
+      "source_labels": 401,
+      "channels": 3,
+      "observed_cells": 46104456,
+      "missing_cells": 21753165,
+      "source_manifest_sha256": "2ad7c7b77c37e52de56bbec6704b888ec6e9cba8ff6de904d4f0f9a2e24507d5",
+      "measurement_manifest_sha256": "12bb15a4e4630c2a9a89ae79e75c413d3796576a8cfc11676f394ff9f98d1a91",
+      "verification": "SOURCE_VALUES_AND_FROZEN_PARTITIONS_VERIFIED",
+      "biological_validation": "NOT_ASSERTED"
+    },
+    {
+      "dataset_id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "study": "GSE133684",
+      "kind": "mRNA_lncRNA",
+      "features": 29027,
+      "source_labels": 401,
+      "channels": 3,
+      "observed_cells": 34919481,
+      "missing_cells": 0,
+      "source_manifest_sha256": "8ab80b61ed3ed2fa5c8ea5aa14ff667459b72d9c88f40af0386799373ca35af6",
+      "measurement_manifest_sha256": "a4c8c21fa0e0feddccc8228632bab8f5fb7b67845c32feeaea7db92bceb7aa97",
+      "verification": "SOURCE_VALUES_AND_FROZEN_PARTITIONS_VERIFIED",
+      "biological_validation": "NOT_ASSERTED"
+    },
+    {
+      "dataset_id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "study": "GSE133684",
+      "kind": "ap_usage",
+      "features": 21417,
+      "source_labels": 401,
+      "channels": 3,
+      "observed_cells": 25764651,
+      "missing_cells": 0,
+      "source_manifest_sha256": "6e477bcf3fde5f68f2bef8061e76e7e51305428a9ed132b03db5938be228c4b7",
+      "measurement_manifest_sha256": "d6bf076c4ec6e9b6d9ababa87c9fb50b81b99a4256ed27eaf8310ab3258ef7c6",
+      "verification": "SOURCE_VALUES_AND_FROZEN_PARTITIONS_VERIFIED",
+      "biological_validation": "NOT_ASSERTED"
+    },
+    {
+      "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "study": "GSE133684",
+      "kind": "ap",
+      "features": 128514,
+      "source_labels": 401,
+      "channels": 3,
+      "observed_cells": 139383036,
+      "missing_cells": 15219306,
+      "source_manifest_sha256": "b767a0f37324fc3d1ef21619e146a331c3ce858c2ceb0f7d2d04b6f6b3361771",
+      "measurement_manifest_sha256": "ebdd47ee5cc59e6e941409c6247d6ed9b604582a9c6972034a4f3069bc4cef98",
+      "verification": "SOURCE_VALUES_AND_FROZEN_PARTITIONS_VERIFIED",
+      "biological_validation": "NOT_ASSERTED"
+    }
+  ],
+  "advanced_run_evidence": [
+    {
+      "kind": "as",
+      "study": "HRA000210",
+      "checked_at": "2026-11-14",
+      "status": "ORIGINAL_RUN_FILES_PERMISSION_PENDING",
+      "missing_files": [
+        "model.json",
+        "report.json",
+        "features.tsv",
+        "sample_qc.tsv"
+      ],
+      "available_context": [
+        "source rules",
+        "current configuration",
+        "delivery QC",
+        "checksums",
+        "selected source annotation"
+      ]
+    },
+    {
+      "kind": "editing",
+      "study": "HRA000210",
+      "checked_at": "2026-11-14",
+      "status": "ORIGINAL_RUN_FILES_PERMISSION_PENDING",
+      "missing_files": [
+        "model.json",
+        "report.json",
+        "features.tsv",
+        "sample_qc.tsv"
+      ],
+      "available_context": [
+        "source rules",
+        "current configuration",
+        "delivery QC",
+        "checksums",
+        "selected source annotation"
+      ]
+    },
+    {
+      "kind": "mutation",
+      "study": "HRA000210",
+      "checked_at": "2026-11-14",
+      "status": "ORIGINAL_RUN_FILES_PERMISSION_PENDING",
+      "missing_files": [
+        "model.json",
+        "report.json",
+        "features.tsv",
+        "sample_qc.tsv"
+      ],
+      "available_context": [
+        "source rules",
+        "current configuration",
+        "delivery QC",
+        "checksums",
+        "selected source annotation"
+      ]
+    },
+    {
+      "kind": "fusion",
+      "study": "HRA000210",
+      "checked_at": "2026-11-14",
+      "status": "ORIGINAL_RUN_FILES_PERMISSION_PENDING",
+      "missing_files": [
+        "model.json",
+        "report.json",
+        "features.tsv",
+        "sample_qc.tsv"
+      ],
+      "available_context": [
+        "source rules",
+        "current configuration",
+        "delivery QC",
+        "checksums",
+        "selected source annotation"
+      ]
+    }
+  ],
+  "interpretation": "Delivery-value verification, source-reported QC and complete historical run reconstruction are distinct evidence levels. NA is not zero.",
+  "evidence_checked_at": "2026-11-15",
+  "resource_audit": "/resource-audit/matrix-audit.json"
+}

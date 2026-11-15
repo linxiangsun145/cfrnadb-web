@@ -1,0 +1,7 @@
+view_a	view_b	shared_source_gene_ids	union_source_gene_ids	fraction_of_a	fraction_of_b	shared_with_disjoint_source_gene_versions
+cfrnapro	mRNA_lncRNA	29001	56364	0.5145305514157973	1.0	0
+cfrnapro	ap_usage	21395	56364	0.3795862607338017	1.0	0
+cfrnapro	ap	21395	56364	0.3795862607338017	1.0	0
+mRNA_lncRNA	ap_usage	18868	31528	0.6505982552325782	0.8818882916569292	0
+mRNA_lncRNA	ap	18868	31528	0.6505982552325782	0.8818882916569292	0
+ap_usage	ap	21395	21395	1.0	1.0	0

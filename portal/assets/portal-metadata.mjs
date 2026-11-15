@@ -1,8 +1,9 @@
 // Presentation of curated metadata. Source values remain unchanged in exports.
 import {escape as e} from './portal-data.mjs';
 import {copy as c,t} from './portal-i18n.mjs';
+import {publicMode} from './portal-public.mjs';
 
-export const metadataUrl=(cohort,tier='core')=>'/v1/portal/metadata-export?'+new URLSearchParams({cohort,tier});
+export const metadataUrl=(cohort,tier='core')=>publicMode&&cohort==='gut401'&&['core','extended'].includes(tier)?'/release/metadata-'+tier+'.tsv':'/v1/portal/metadata-export?'+new URLSearchParams({cohort,tier});
 const absent=()=>c('Not reported / unconfirmed','未提供／未确认');
 const value=v=>v===null||v===undefined||v===''?absent():String(v);
 const pair=(label,v)=>'<div class="metadata-item"><dt>'+e(label)+'</dt><dd>'+e(value(v))+'</dd></div>';

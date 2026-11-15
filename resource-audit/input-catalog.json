@@ -1,0 +1,287 @@
+{
+  "datasets": [
+    {
+      "id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "key": "cfrnapro-unstranded-gut401-039de45f91714185d7294877",
+      "version": "private-cfrnapro-unstranded-v1",
+      "kind": "cfrnapro",
+      "name": "RNA coverage profiles",
+      "description": "Gene-span coverage and KL divergence from uniform coverage.",
+      "cohort": "gut401",
+      "study": "GSE133684",
+      "role": "cohort",
+      "features": 56407,
+      "sources": 401,
+      "channels": [
+        {
+          "column": "counts",
+          "id": "b7ace819-097d-5121-887b-199247dc1e7e",
+          "interpretation": "combined alignment directions",
+          "quantification_level": "source_gene_span",
+          "unit": "covered_alignment_bases"
+        },
+        {
+          "column": "mean_coverage",
+          "id": "c830e23b-3f6f-5012-a692-06182fcef780",
+          "interpretation": "combined alignment directions",
+          "quantification_level": "source_gene_span",
+          "unit": "mean_alignment_coverage"
+        },
+        {
+          "column": "kl",
+          "id": "5f0c470c-6a12-5e7a-91d8-34bb7b553888",
+          "interpretation": "combined alignment directions",
+          "missing_state": "unavailable_low_coverage",
+          "quantification_level": "source_gene_span",
+          "unit": "natural_log_KL_from_uniform"
+        }
+      ],
+      "primary_channel": "5f0c470c-6a12-5e7a-91d8-34bb7b553888",
+      "measurements": 67857621,
+      "state_counts": {
+        "observed_zero": 28498746,
+        "observed_positive": 17605710,
+        "unavailable_low_coverage": 21753165
+      },
+      "source_sha256": "2ad7c7b77c37e52de56bbec6704b888ec6e9cba8ff6de904d4f0f9a2e24507d5",
+      "measurement_sha256": "12bb15a4e4630c2a9a89ae79e75c413d3796576a8cfc11676f394ff9f98d1a91",
+      "imported_at": "2026-11-08 17:05:04.477412+08:00",
+      "coordinate_note": null,
+      "metadata_snapshot_id": "public-metadata-f840616763b8bb327584606a"
+    },
+    {
+      "id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "key": "mrna-lncrna-gut401-1ff4a2b138fd66e4768bd40b",
+      "version": "private-mrna-lncrna-v1",
+      "kind": "mRNA_lncRNA",
+      "name": "mRNA & lncRNA",
+      "description": "Gene expression using the source featureCounts and normalization definitions.",
+      "cohort": "gut401",
+      "study": "GSE133684",
+      "role": "cohort",
+      "features": 29027,
+      "sources": 401,
+      "channels": [
+        {
+          "column": "counts",
+          "id": "eb0eb1b8-c8c6-5a5d-9465-6e6ce7a714bb",
+          "interpretation": "featureCounts paired fragment assignment with -B -C, -s 0. CPM/TPM denominators use ALL featureCounts genes before protein-coding/lncRNA view selection; not subset-renormalized and not UMI counts.",
+          "quantification_level": "source_gene_exon_union",
+          "unit": "featureCounts_assigned_paired_fragments"
+        },
+        {
+          "column": "cpm",
+          "id": "d4ed0a66-e2ea-5ec8-8560-1a332dbfe0ea",
+          "interpretation": "featureCounts paired fragment assignment with -B -C, -s 0. CPM/TPM denominators use ALL featureCounts genes before protein-coding/lncRNA view selection; not subset-renormalized and not UMI counts.",
+          "quantification_level": "source_gene_exon_union",
+          "unit": "CPM_all_featureCounts_genes_denominator"
+        },
+        {
+          "column": "tpm",
+          "id": "078ef4d7-6dfd-5f2f-be40-ac178224cc4e",
+          "interpretation": "featureCounts paired fragment assignment with -B -C, -s 0. CPM/TPM denominators use ALL featureCounts genes before protein-coding/lncRNA view selection; not subset-renormalized and not UMI counts.",
+          "quantification_level": "source_gene_exon_union",
+          "unit": "TPM_all_featureCounts_genes_exon_union_length"
+        }
+      ],
+      "primary_channel": "078ef4d7-6dfd-5f2f-be40-ac178224cc4e",
+      "measurements": 34919481,
+      "state_counts": {
+        "observed_zero": 19732287,
+        "observed_positive": 15187194
+      },
+      "source_sha256": "8ab80b61ed3ed2fa5c8ea5aa14ff667459b72d9c88f40af0386799373ca35af6",
+      "measurement_sha256": "a4c8c21fa0e0feddccc8228632bab8f5fb7b67845c32feeaea7db92bceb7aa97",
+      "imported_at": "2026-11-08 17:01:15.476883+08:00",
+      "coordinate_note": null,
+      "metadata_snapshot_id": "public-metadata-f840616763b8bb327584606a"
+    },
+    {
+      "id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "key": "promoter-gene-usage-gut401-a31430b2b34836623533a922",
+      "version": "private-promoter-gene-usage-v1",
+      "kind": "ap_usage",
+      "name": "Promoter gene usage",
+      "description": "Major, minor and inactive promoter usage at gene level.",
+      "cohort": "gut401",
+      "study": "GSE133684",
+      "role": "cohort",
+      "features": 21417,
+      "sources": 401,
+      "channels": [
+        {
+          "column": "major",
+          "id": "6e239894-5645-5a1f-94c5-899aeb09d8ca",
+          "interpretation": "Source active threshold TPM>=1; largest active usage is major, other active usage minor; inactive=1 when no active promoter. Preserve source tie ordering.",
+          "quantification_level": "source_promoter_gene_usage",
+          "unit": "within_gene_promoter_usage_fraction"
+        },
+        {
+          "column": "minor",
+          "id": "28db565b-d428-5cee-9150-aabe75c8ce19",
+          "interpretation": "Source active threshold TPM>=1; largest active usage is major, other active usage minor; inactive=1 when no active promoter. Preserve source tie ordering.",
+          "quantification_level": "source_promoter_gene_usage",
+          "unit": "within_gene_promoter_usage_fraction"
+        },
+        {
+          "column": "inactive",
+          "id": "ee2dce81-b29f-52d4-a21f-878194dba48d",
+          "interpretation": "Source active threshold TPM>=1; largest active usage is major, other active usage minor; inactive=1 when no active promoter. Preserve source tie ordering.",
+          "quantification_level": "source_promoter_gene_usage",
+          "unit": "within_gene_promoter_usage_fraction"
+        }
+      ],
+      "primary_channel": "6e239894-5645-5a1f-94c5-899aeb09d8ca",
+      "measurements": 25764651,
+      "state_counts": {
+        "observed_zero": 14368400,
+        "observed_positive": 11396251
+      },
+      "source_sha256": "6e477bcf3fde5f68f2bef8061e76e7e51305428a9ed132b03db5938be228c4b7",
+      "measurement_sha256": "d6bf076c4ec6e9b6d9ababa87c9fb50b81b99a4256ed27eaf8310ab3258ef7c6",
+      "imported_at": "2026-11-07 14:47:31.960895+08:00",
+      "coordinate_note": null,
+      "metadata_snapshot_id": "public-metadata-f840616763b8bb327584606a"
+    },
+    {
+      "id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "key": "promoter-gut401-622b36d441ef674cb1cfdc80",
+      "version": "private-promoter-v1",
+      "kind": "ap",
+      "name": "Alternative promoters",
+      "description": "Promoter activity, transcript TPM and within-gene usage.",
+      "cohort": "gut401",
+      "study": "GSE133684",
+      "role": "cohort",
+      "features": 128514,
+      "sources": 401,
+      "channels": [
+        {
+          "column": "counts",
+          "id": "04073f46-dced-58ca-bd89-b6de45eeacbe",
+          "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+          "quantification_level": "source_alternative_promoter",
+          "unit": "salmon_estimated_fragments"
+        },
+        {
+          "column": "tpm",
+          "id": "59e33b88-b64e-544f-bfec-a3adafd31064",
+          "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+          "quantification_level": "source_alternative_promoter",
+          "unit": "salmon_transcript_TPM_sum"
+        },
+        {
+          "column": "usage",
+          "id": "87704006-e5ea-5f5a-956e-95854fad29db",
+          "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+          "missing_state": "unavailable_zero_gene_TPM",
+          "quantification_level": "source_alternative_promoter",
+          "unit": "within_gene_promoter_TPM_fraction"
+        }
+      ],
+      "primary_channel": "59e33b88-b64e-544f-bfec-a3adafd31064",
+      "measurements": 154602342,
+      "state_counts": {
+        "observed_zero": 110899488,
+        "observed_positive": 28483548,
+        "unavailable_zero_gene_TPM": 15219306
+      },
+      "source_sha256": "b767a0f37324fc3d1ef21619e146a331c3ce858c2ceb0f7d2d04b6f6b3361771",
+      "measurement_sha256": "ebdd47ee5cc59e6e941409c6247d6ed9b604582a9c6972034a4f3069bc4cef98",
+      "imported_at": "2026-11-07 14:44:02.290151+08:00",
+      "coordinate_note": null,
+      "metadata_snapshot_id": "public-metadata-f840616763b8bb327584606a"
+    }
+  ],
+  "studies": [
+    {
+      "id": "gut401",
+      "accession": "GSE133684",
+      "name": "GSE133684 · independent cohort",
+      "sources": 401,
+      "active_datasets": 4,
+      "versions": 4,
+      "identity_scope": "SOURCE_LABEL_ONLY",
+      "metadata": {
+        "cohort": "gut401",
+        "groups": {
+          "PDAC": 284,
+          "healthy": 117
+        },
+        "accession": "GSE133684",
+        "publications": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31562239/",
+            "pubmed_id": "31562239"
+          }
+        ],
+        "metadata_date": "2026-11-14",
+        "source_labels": 401,
+        "identity_scope": "SOURCE_LABELS_SUBJECT_LIBRARY_UNCONFIRMED",
+        "repository_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133684",
+        "specimen_counts": {
+          "plasma": 401
+        },
+        "instrument_counts": {
+          "HiSeq X Ten": 401
+        },
+        "library_kit_counts": {
+          "SMARTer Stranded Total RNA-Seq Kit - Pico Input Mammalian": 401
+        },
+        "specimen_not_reported": 0,
+        "indexed_repository_links": 0,
+        "verified_repository_links": 401
+      }
+    }
+  ],
+  "collection": null,
+  "source_labels": 401,
+  "versions": 4,
+  "total_logical_measurements": 283144095,
+  "publication": "PUBLIC_GEO_DERIVED_DATA",
+  "release": "public-2026.11.14",
+  "default_cohort": "gut401",
+  "directory_studies": [
+    {
+      "id": "cancer373",
+      "accession": "HRA000210",
+      "source_labels": 373,
+      "scope": "STUDY_DIRECTORY_ONLY",
+      "repository_url": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA000210",
+      "kinds": [
+        "ap",
+        "ap_usage",
+        "ase",
+        "as",
+        "cfpeak",
+        "cfrnapro",
+        "editing",
+        "endmotif",
+        "fusion",
+        "mbrna",
+        "mRNA_lncRNA",
+        "mutation",
+        "rag",
+        "TE"
+      ]
+    }
+  ],
+  "public_policy": {
+    "format": "cfrnadb.public-scope.v1",
+    "date": "2026-11-14",
+    "study": "GSE133684",
+    "feature_kinds": [
+      "ap",
+      "ap_usage",
+      "cfrnapro",
+      "mRNA_lncRNA"
+    ],
+    "source_labels": 401,
+    "authorization": "User explicitly approved GSE133684 open data plus HRA study-level directory on 2026-11-14.",
+    "protected_study": "HRA000210",
+    "protected_scope": "Study-level directory only; no per-label values or clinical metadata.",
+    "ase_scope": "Directory only pending confirmation of third-party variant-annotation redistribution terms, including COSMIC.",
+    "source_repository": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133684",
+    "reuse_policy": "https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html"
+  }
+}

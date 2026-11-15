@@ -1,0 +1,86 @@
+{
+  "README.txt": {
+    "sha256": "343ec52e8e4b0fa10d2c4b3f9abb2539b8de4997fed82b48200fbee9da251ff3",
+    "bytes": 3358
+  },
+  "audit_gene_coverage.py": {
+    "sha256": "960fb809b4bd038e159126089645cf069dbb87ca5a3648d9e67d2f128742dc94",
+    "bytes": 4235
+  },
+  "audit_public_matrices.py": {
+    "sha256": "f7eb20f106204dd3cc6146c9ce7a6b31c9ddd77ee1fb04e704d1daa9dccc0afa",
+    "bytes": 7520
+  },
+  "channel-availability.pdf": {
+    "sha256": "3d86b64fe3c6bca786d89992333aaf1df41d362d067c3ff45f86d6c9c5d4dd5a",
+    "bytes": 19405
+  },
+  "channel-availability.png": {
+    "sha256": "bddab3071fdd820d832f42c96ea5162e54c2c9ba8f93cd6b52568a45b8de6e82",
+    "bytes": 245569
+  },
+  "channel-availability.svg": {
+    "sha256": "6d6b522c1d78507a149c1f66309334135578364604e7edd13bceaf2c5bea23fd",
+    "bytes": 18578
+  },
+  "channel-summary.tsv": {
+    "sha256": "544f165627e000aed002eca47e84d87183afe2052294038d469a2ca78d07718d",
+    "bytes": 5697
+  },
+  "gene-audit.json": {
+    "sha256": "59109d312fe10331b1e28f6d50fa4d64d8cbb1fe02cbbf8c4af2e07739b4d69f",
+    "bytes": 3635
+  },
+  "gene-coverage.tsv": {
+    "sha256": "98d3c6c0a10a36b223543f313ce468c29c9664d2871e4fa82c7b24fa4d645abe",
+    "bytes": 352
+  },
+  "gene-overlap.pdf": {
+    "sha256": "4915d600e1dc592fb034eeec1c9cfc9749a501aa080a2ebbaea6a0f665e8b03d",
+    "bytes": 19772
+  },
+  "gene-overlap.png": {
+    "sha256": "8c8cfca0cd17cbdf1347c7ad8b4d0fae88001af9caa9e4e5dbbe487b86b7f817",
+    "bytes": 201770
+  },
+  "gene-overlap.svg": {
+    "sha256": "1bbbedf62fae61de3c935edda19f90d5d780a866546fd16302fe1a82b1131c9e",
+    "bytes": 14772
+  },
+  "gene-overlap.tsv": {
+    "sha256": "b7f5528a0e3149ea23e95ba5c85e0457bc995c19728a1384c284dcacff01178c",
+    "bytes": 465
+  },
+  "gene_link_rules.py": {
+    "sha256": "b68bebbb90227ddd934e6d724420ded899bb640730785e6e2f51b8e62b3f83c8",
+    "bytes": 1545
+  },
+  "input-bundles.json": {
+    "sha256": "50fef635e5c0b544887e6a2cd3016d4573fc5e6c283e82de6a4db2254d3417b2",
+    "bytes": 6639
+  },
+  "input-catalog.json": {
+    "sha256": "d68a70130047a79c3e52fee8737c1d67f58059249d7f0026c852910bc304f9f2",
+    "bytes": 11792
+  },
+  "matrix-audit.json": {
+    "sha256": "e25cbaddeef20a10e2ccc28168430f40b811a8a83fb995657bf3ae99b830bf4f",
+    "bytes": 12300
+  },
+  "plot_resource_audit.py": {
+    "sha256": "3996c74dfbef1581a6a3c2b542aca03f1ffa714296aaee697ef60ebcc5d07baf",
+    "bytes": 3506
+  },
+  "requirements.txt": {
+    "sha256": "016b9118c49cbc275053294bcd01c101dbdd6bfede90b3b9a08f68f6770089b4",
+    "bytes": 51
+  },
+  "source-coverage.tsv": {
+    "sha256": "28352cf6db351e4adc4839f0a02af66265e56931e11a95f2dde1cc1e16f0667f",
+    "bytes": 589281
+  },
+  "source-gene-links.tsv.gz": {
+    "sha256": "fa28f1107801a8c172d57182a558557fad31190e5e91a59a9fb3a1c3b8371b65",
+    "bytes": 7781865
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "status": "PASS_ALL_PUBLIC_CHANNEL_BUNDLES",
+  "bundles": [
+    {
+      "kind": "cfrnapro",
+      "dataset_id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "channel_id": "b7ace819-097d-5121-887b-199247dc1e7e",
+      "column": "counts",
+      "id": "d6c2781ca86ead895a8bc4cb335ec1ccd82a1e372b8a096fa1668a24744a442e",
+      "bytes": 28240905,
+      "sha256": "e06f2831ed2471e3de457f3a7a22442916bafb39f4c4106bd758ca1188a3f2e9",
+      "features": 56407,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/d6c2781ca86ead895a8bc4cb335ec1ccd82a1e372b8a096fa1668a24744a442e/file"
+    },
+    {
+      "kind": "cfrnapro",
+      "dataset_id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "channel_id": "c830e23b-3f6f-5012-a692-06182fcef780",
+      "column": "mean_coverage",
+      "id": "5ce0dbe04ee8b62d410a0291527515b1d693f2f440fdc5fd61da4d11a365a8ca",
+      "bytes": 75111638,
+      "sha256": "0a01b18fe74b589107e43389c76f6866c6604048b108188e3563debb24db3b6e",
+      "features": 56407,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/5ce0dbe04ee8b62d410a0291527515b1d693f2f440fdc5fd61da4d11a365a8ca/file"
+    },
+    {
+      "kind": "cfrnapro",
+      "dataset_id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "channel_id": "5f0c470c-6a12-5e7a-91d8-34bb7b553888",
+      "column": "kl",
+      "id": "a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9",
+      "bytes": 15344919,
+      "sha256": "65b042b469b3c6683c96771dbfaed66ae3847b2bab08803869cb6fed5e695c70",
+      "features": 56407,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/a38d9c86ad59fa29318814c313bf83785e3b31f3b7133261bacb8fd76a762ca9/file"
+    },
+    {
+      "kind": "mRNA_lncRNA",
+      "dataset_id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "channel_id": "eb0eb1b8-c8c6-5a5d-9465-6e6ce7a714bb",
+      "column": "counts",
+      "id": "e5cac3c5b0cefa3676f91f57397af742ef5c0cc4d79cfd5309ef0f4732c42129",
+      "bytes": 10735263,
+      "sha256": "f087edfb42c3c5640e9bdf4ec26e1f2d09cf9bbd9fa742944e14bdd97aef70f6",
+      "features": 29027,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/e5cac3c5b0cefa3676f91f57397af742ef5c0cc4d79cfd5309ef0f4732c42129/file"
+    },
+    {
+      "kind": "mRNA_lncRNA",
+      "dataset_id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "channel_id": "d4ed0a66-e2ea-5ec8-8560-1a332dbfe0ea",
+      "column": "cpm",
+      "id": "ccf342298c46e8fc6566ca56f6b451f96afc35609c60f72c09da82eeefe64deb",
+      "bytes": 50624012,
+      "sha256": "7d611a2336d09b87bb9540d47f7bc97c018d734c0959a79046fff055ee3a6099",
+      "features": 29027,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/ccf342298c46e8fc6566ca56f6b451f96afc35609c60f72c09da82eeefe64deb/file"
+    },
+    {
+      "kind": "mRNA_lncRNA",
+      "dataset_id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "channel_id": "078ef4d7-6dfd-5f2f-be40-ac178224cc4e",
+      "column": "tpm",
+      "id": "0665160ff131b9d4dbd8064c546834038e7a052be241adfba0661509fef6b731",
+      "bytes": 52676115,
+      "sha256": "a427ff161bbdd37fa1748f06af32182dc862b898245eb463da16ef6be2b12dc7",
+      "features": 29027,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/0665160ff131b9d4dbd8064c546834038e7a052be241adfba0661509fef6b731/file"
+    },
+    {
+      "kind": "ap_usage",
+      "dataset_id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "channel_id": "6e239894-5645-5a1f-94c5-899aeb09d8ca",
+      "column": "major",
+      "id": "303fe1339e54977a3d80f5532c8ee1e109827fd74d09678846949976291d9d4a",
+      "bytes": 27626317,
+      "sha256": "f7c1dabdc42c4b24074f76ba81720557ba3c037e2f4158ea6f15b550cb59d41f",
+      "features": 21417,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/303fe1339e54977a3d80f5532c8ee1e109827fd74d09678846949976291d9d4a/file"
+    },
+    {
+      "kind": "ap_usage",
+      "dataset_id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "channel_id": "28db565b-d428-5cee-9150-aabe75c8ce19",
+      "column": "minor",
+      "id": "181d5c58e0706fe4cd4b2abd971c23f92c228fdd77b0be845e0484c9ad76696f",
+      "bytes": 24364704,
+      "sha256": "0046eb87ec8cf492b39f3384d2b43e2c9a967970b77dfbe1c1d30dcc6a6f178f",
+      "features": 21417,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/181d5c58e0706fe4cd4b2abd971c23f92c228fdd77b0be845e0484c9ad76696f/file"
+    },
+    {
+      "kind": "ap_usage",
+      "dataset_id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "channel_id": "ee2dce81-b29f-52d4-a21f-878194dba48d",
+      "column": "inactive",
+      "id": "54415f743765449b149511ce3691d758513c1695e2aa3c8e6f8617622d325613",
+      "bytes": 11043507,
+      "sha256": "ab78c5d0225e844561ce15dfe5e3152a9ac89a6fc6965637e9dc869021c5969b",
+      "features": 21417,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/54415f743765449b149511ce3691d758513c1695e2aa3c8e6f8617622d325613/file"
+    },
+    {
+      "kind": "ap",
+      "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "channel_id": "04073f46-dced-58ca-bd89-b6de45eeacbe",
+      "column": "counts",
+      "id": "5a9416ea5754f58229161e13513301b45b2f07987fca7058f9438b0c0b2c9495",
+      "bytes": 49986857,
+      "sha256": "1b16c196136fbca0bf1f22db27cb1db3b4690fec45b07d908eac3b3f24b0f15d",
+      "features": 128514,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/5a9416ea5754f58229161e13513301b45b2f07987fca7058f9438b0c0b2c9495/file"
+    },
+    {
+      "kind": "ap",
+      "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "channel_id": "59e33b88-b64e-544f-bfec-a3adafd31064",
+      "column": "tpm",
+      "id": "a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4",
+      "bytes": 70944831,
+      "sha256": "fc71f9c45193e05561f3e678ff05e27b26903223c6e72d2f4bdb1f2e66c519ef",
+      "features": 128514,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/a91900924080904ecd04cdecf1aa67e5a880c2f0285ba78497de771076ffe3f4/file"
+    },
+    {
+      "kind": "ap",
+      "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "channel_id": "87704006-e5ea-5f5a-956e-95854fad29db",
+      "column": "usage",
+      "id": "b5895d3c948b8972571b20070c399e85ab4c2345afba35c3e1ccbee1e047ba88",
+      "bytes": 98241898,
+      "sha256": "ed90fa533ba4d32f2fbe3f575f6299843856a6a71764f047997aa3a4f21a3179",
+      "features": 128514,
+      "source_labels": 401,
+      "url": "/v1/portal/downloads/b5895d3c948b8972571b20070c399e85ab4c2345afba35c3e1ccbee1e047ba88/file"
+    }
+  ],
+  "windows_full_matrix_copy": false
+}

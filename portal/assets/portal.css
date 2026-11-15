@@ -25,3 +25,8 @@
 nav{gap:15px}.gene-form{display:grid;grid-template-columns:2fr 1fr auto;align-items:end;gap:15px}.gene-form input,.gene-form select{width:100%}.gene-coverage{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12px}.gene-plots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.gene-plots>.card+.card{margin-top:0}.example-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}.example-grid>.card+.card{margin-top:0}.example-figure{display:block;width:100%;height:auto;margin:20px 0}.gene-plots .chart{min-width:0}
 @media(max-width:1100px){.gene-plots{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:650px){.gene-form{grid-template-columns:minmax(0,1fr)}.gene-form .btn{justify-self:start}}
+
+/* Resource audit figures and comparison preserve their own data units. */
+.audit-figure{margin:24px 0}.audit-figure img{display:block;width:100%;height:auto;margin:16px 0}.audit-figure figcaption{font-size:14px;color:var(--muted,#53697b)}.resource-comparison td{min-width:170px;vertical-align:top;white-space:normal}.resource-comparison td:first-child{min-width:135px}.resource-comparison td:last-child{min-width:260px}
+
+.public-hidden{display:none}

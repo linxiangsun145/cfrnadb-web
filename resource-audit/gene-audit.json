@@ -1,0 +1,104 @@
+{
+  "format": "cfrnadb.public-source-gene-audit.v1",
+  "status": "PASS_REBUILT_SOURCE_GENE_COVERAGE",
+  "mapping_rules_sha256": "b68bebbb90227ddd934e6d724420ded899bb640730785e6e2f51b8e62b3f83c8",
+  "catalog_sha256": "d68a70130047a79c3e52fee8737c1d67f58059249d7f0026c852910bc304f9f2",
+  "annotation_sha256": {
+    "23b25b04-93f9-5a1b-9eca-bff159ae153d": "2efa7e0cbc65246c65f7344fd14db26b77f08a9985fabed271c31393ced01601",
+    "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9": "87426ce71c7bdb0e8e6ee4fa9dfcbc50a2172191b2ba1460dd14fe426c8e1bf6",
+    "4d4f4d4d-c85d-5393-9a5c-f60695682221": "4c10bfba86772c761ff288faefe00dff1f32c753a9cabdb29421a5f1cc566482",
+    "dd34fb31-7967-5d2f-b900-6dc9c353723d": "221eb88dcfeef95d85345a7f1579ac53dfa4cc0a3ba217b3797a86101de9ab6b"
+  },
+  "links": 235171,
+  "coverage": [
+    {
+      "dataset_id": "23b25b04-93f9-5a1b-9eca-bff159ae153d",
+      "kind": "cfrnapro",
+      "features": 56407,
+      "mapped_features": 56364,
+      "unmapped_features": 43,
+      "distinct_source_gene_ids": 56364
+    },
+    {
+      "dataset_id": "2ea7d8cd-e697-53b0-a0c9-ef7007d52ce9",
+      "kind": "mRNA_lncRNA",
+      "features": 29027,
+      "mapped_features": 29001,
+      "unmapped_features": 26,
+      "distinct_source_gene_ids": 29001
+    },
+    {
+      "dataset_id": "4d4f4d4d-c85d-5393-9a5c-f60695682221",
+      "kind": "ap_usage",
+      "features": 21417,
+      "mapped_features": 21395,
+      "unmapped_features": 22,
+      "distinct_source_gene_ids": 21395
+    },
+    {
+      "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+      "kind": "ap",
+      "features": 128514,
+      "mapped_features": 128411,
+      "unmapped_features": 103,
+      "distinct_source_gene_ids": 21395
+    }
+  ],
+  "pairwise": [
+    {
+      "view_a": "cfrnapro",
+      "view_b": "mRNA_lncRNA",
+      "shared_source_gene_ids": 29001,
+      "union_source_gene_ids": 56364,
+      "fraction_of_a": 0.5145305514157973,
+      "fraction_of_b": 1.0,
+      "shared_with_disjoint_source_gene_versions": 0
+    },
+    {
+      "view_a": "cfrnapro",
+      "view_b": "ap_usage",
+      "shared_source_gene_ids": 21395,
+      "union_source_gene_ids": 56364,
+      "fraction_of_a": 0.3795862607338017,
+      "fraction_of_b": 1.0,
+      "shared_with_disjoint_source_gene_versions": 0
+    },
+    {
+      "view_a": "cfrnapro",
+      "view_b": "ap",
+      "shared_source_gene_ids": 21395,
+      "union_source_gene_ids": 56364,
+      "fraction_of_a": 0.3795862607338017,
+      "fraction_of_b": 1.0,
+      "shared_with_disjoint_source_gene_versions": 0
+    },
+    {
+      "view_a": "mRNA_lncRNA",
+      "view_b": "ap_usage",
+      "shared_source_gene_ids": 18868,
+      "union_source_gene_ids": 31528,
+      "fraction_of_a": 0.6505982552325782,
+      "fraction_of_b": 0.8818882916569292,
+      "shared_with_disjoint_source_gene_versions": 0
+    },
+    {
+      "view_a": "mRNA_lncRNA",
+      "view_b": "ap",
+      "shared_source_gene_ids": 18868,
+      "union_source_gene_ids": 31528,
+      "fraction_of_a": 0.6505982552325782,
+      "fraction_of_b": 0.8818882916569292,
+      "shared_with_disjoint_source_gene_versions": 0
+    },
+    {
+      "view_a": "ap_usage",
+      "view_b": "ap",
+      "shared_source_gene_ids": 21395,
+      "union_source_gene_ids": 21395,
+      "fraction_of_a": 1.0,
+      "fraction_of_b": 1.0,
+      "shared_with_disjoint_source_gene_versions": 0
+    }
+  ],
+  "interpretation": "Canonical source Ensembl ID overlap, retaining original versions and reference hashes; not independent molecular validation or physical-sample matching."
+}

@@ -1,0 +1,2497 @@
+{
+  "id": "fce9b2a9-0afc-5e18-9663-045719756b19",
+  "dataset_id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+  "name": "ENSG00000119888.10|chr2:47369475:+",
+  "native_id": "ENSG00000119888.10|chr2:47369475:+",
+  "type": "alternative_promoter",
+  "kind": "ap",
+  "dataset_name": "Alternative promoters",
+  "cohort": "gut401",
+  "gene_name": null,
+  "source_key": "PROMOTER:ENSG00000119888.10|chr2:47369475:+@74fa804f2ae3717e035733c1",
+  "annotation": {
+    "chrom": "chr2",
+    "gene_id": "ENSG00000119888.10"
+  },
+  "coordinate": {
+    "end": 47369475,
+    "chrom": "chr2",
+    "start": 47369474,
+    "strand": "+",
+    "identity_status": "SOURCE_ASSEMBLY_LABEL_ONLY",
+    "sequence_sha256": null,
+    "reference_seq_id": "source-assembly:GRCh38:chr2",
+    "coordinate_system": "0-based-half-open",
+    "source_TSS_1based": 47369475
+  },
+  "reference_sha256": "74fa804f2ae3717e035733c16aa0f4e669e8b81c2654bcc0747dd16be867e0cc",
+  "reference_id": "PROMOTER-GUT-74fa804f2ae3717e035733c1",
+  "source_assembly": "GRCh38",
+  "qc_model_available": null,
+  "selection_scope": null,
+  "dataset": {
+    "id": "dd34fb31-7967-5d2f-b900-6dc9c353723d",
+    "key": "promoter-gut401-622b36d441ef674cb1cfdc80",
+    "version": "private-promoter-v1",
+    "kind": "ap",
+    "name": "Alternative promoters",
+    "description": "Promoter activity, transcript TPM and within-gene usage.",
+    "cohort": "gut401",
+    "study": "GSE133684",
+    "role": "cohort",
+    "features": 128514,
+    "sources": 401,
+    "channels": [
+      {
+        "column": "counts",
+        "id": "04073f46-dced-58ca-bd89-b6de45eeacbe",
+        "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+        "quantification_level": "source_alternative_promoter",
+        "unit": "salmon_estimated_fragments"
+      },
+      {
+        "column": "tpm",
+        "id": "59e33b88-b64e-544f-bfec-a3adafd31064",
+        "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+        "quantification_level": "source_alternative_promoter",
+        "unit": "salmon_transcript_TPM_sum"
+      },
+      {
+        "column": "usage",
+        "id": "87704006-e5ea-5f5a-956e-95854fad29db",
+        "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+        "missing_state": "unavailable_zero_gene_TPM",
+        "quantification_level": "source_alternative_promoter",
+        "unit": "within_gene_promoter_TPM_fraction"
+      }
+    ],
+    "primary_channel": "59e33b88-b64e-544f-bfec-a3adafd31064",
+    "measurements": 154602342,
+    "state_counts": {
+      "observed_zero": 110899488,
+      "observed_positive": 28483548,
+      "unavailable_zero_gene_TPM": 15219306
+    },
+    "source_sha256": "b767a0f37324fc3d1ef21619e146a331c3ce858c2ceb0f7d2d04b6f6b3361771",
+    "measurement_sha256": "ebdd47ee5cc59e6e941409c6247d6ed9b604582a9c6972034a4f3069bc4cef98",
+    "imported_at": "2026-11-07 14:44:02.290151+08:00",
+    "coordinate_note": null,
+    "metadata_snapshot_id": "public-metadata-f840616763b8bb327584606a"
+  },
+  "channel": {
+    "column": "tpm",
+    "id": "59e33b88-b64e-544f-bfec-a3adafd31064",
+    "interpretation": "Salmon NumReads and transcript TPM aggregated by source TSS cluster; estimated counts remain fractional",
+    "quantification_level": "source_alternative_promoter",
+    "unit": "salmon_transcript_TPM_sum"
+  },
+  "total": 401,
+  "measurements": [
+    {
+      "source_id": "7e51d622-2a58-528b-993b-a1cdcacc2fe5",
+      "label": "SRR9625094",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "132a5a7b-c595-5388-b7a5-335dbffc8eba",
+      "label": "SRR9625095",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "797945b9-e4e0-5679-8df5-6519b422a015",
+      "label": "SRR9625096",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "33e654a8-9113-54b0-9aed-ea13a808831b",
+      "label": "SRR9625097",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f0b7d22b-7f62-520e-a595-93b1405d5b57",
+      "label": "SRR9625098",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a515c07f-4b47-52f7-aab0-aed8b9474b03",
+      "label": "SRR9625099",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b47ffbfe-ab3e-5dcb-aebb-5433d69150e5",
+      "label": "SRR9625100",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e6fa22ea-33ee-5a4c-a457-348f9ef25148",
+      "label": "SRR9625101",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7bc76f52-5836-51e3-a8ac-d72cfa7dd8b6",
+      "label": "SRR9624842",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5bc6896f-0be3-506b-ab50-59211059df05",
+      "label": "SRR9624843",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "94e2dcc9-973e-550a-a7cf-491646a01e65",
+      "label": "SRR9624844",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bdb76a80-93d1-5de1-b363-acaa73d591cc",
+      "label": "SRR9624845",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6e5a8e77-c492-5ca4-a393-c3e46111baa5",
+      "label": "SRR9624846",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dc9e6100-ac35-5231-bf9c-56ff7dcfcfc5",
+      "label": "SRR9624847",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "785fda4f-051d-591e-a777-04e3ec092d98",
+      "label": "SRR9624848",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5b56d792-21b7-5630-a5f1-3be3cdc025db",
+      "label": "SRR9624849",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d75133a2-2df6-54a6-8dea-a7ccc97fd147",
+      "label": "SRR9624850",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b85b1612-c001-5ae3-9c0c-b50aee679c69",
+      "label": "SRR9624851",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5e184b8f-a055-5c32-adf6-4caf73e47c89",
+      "label": "SRR9624852",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "25059370-7df0-5d13-a66f-fd7812b2e6db",
+      "label": "SRR9624853",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f4ce1c04-5610-5ffe-aec1-41f37afad0fd",
+      "label": "SRR9624854",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dee31840-658f-5eb0-a17d-d731f98bf0a7",
+      "label": "SRR9624855",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e3d77b06-5ff2-521c-aa91-8e57faa43da5",
+      "label": "SRR9624856",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d1c72459-4b92-5142-b034-aa4431465d85",
+      "label": "SRR9624857",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0f04c03c-85e2-5906-8513-250450528744",
+      "label": "SRR9624858",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0ffe1769-4164-580d-b5df-765beec55b0b",
+      "label": "SRR9624859",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8537468c-e32c-53c5-9430-4299e8a5f19f",
+      "label": "SRR9624860",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "28e66d7c-4f2e-5c44-a2d6-f07a83cb66b5",
+      "label": "SRR9624861",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a517c6c1-5c5d-5396-84c9-7740d28516a2",
+      "label": "SRR9624862",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6e7a4755-f428-559d-a0dc-46fd8b503eb1",
+      "label": "SRR9624863",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "37f192e0-ee89-5b50-8355-39d922606398",
+      "label": "SRR9624864",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8ad7b262-5dce-5828-a149-9ffea5ee186b",
+      "label": "SRR9624865",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1079680c-db93-58c6-9679-2f6500200d56",
+      "label": "SRR9624866",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7152e8fc-cf82-5f5d-82a6-b31904ff911a",
+      "label": "SRR9624867",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0f23de52-a9f6-5b18-896b-185aa55109f3",
+      "label": "SRR9624868",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7ef55bb4-cc2b-5b0c-a5a2-cd83e22fb2f1",
+      "label": "SRR9624869",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "02c8b6bf-29b4-5f22-9201-0da3a36340eb",
+      "label": "SRR9624870",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4198a936-170b-5997-918a-6f8dd19188a4",
+      "label": "SRR9624871",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c3a8c897-7d48-523f-8ae8-a771e5dcbb2c",
+      "label": "SRR9624872",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "74c0d881-a2b0-5061-b65e-82ab5fe1715b",
+      "label": "SRR9624873",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d365d918-dc86-5859-95d4-40fb4f8872b3",
+      "label": "SRR9624874",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b14a4c37-411f-5bfb-b97f-d093d28f1c6a",
+      "label": "SRR9624875",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5b34013c-5178-5cd8-a842-e16b125043f7",
+      "label": "SRR9624876",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "41228e44-8ce2-5a6a-b2fa-a07253ee6967",
+      "label": "SRR9624877",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "93e25815-1131-5a4a-ad2c-9763f041646c",
+      "label": "SRR9624878",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5e471b47-876a-5324-8695-eccac5849a83",
+      "label": "SRR9624879",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5b793825-40da-50e4-956b-3f63fd395cfa",
+      "label": "SRR9624880",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f5046c0c-9ba5-59f9-a2ea-193a32e66748",
+      "label": "SRR9624881",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "27948cbc-b5bc-5dbf-9710-d43893cd8929",
+      "label": "SRR9624882",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d42acd4e-22d2-564f-8876-7cb52335310e",
+      "label": "SRR9624883",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "06e26733-6848-5610-b5fb-6b2bf308f2e8",
+      "label": "SRR9624884",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b5e1924b-36c0-559f-8580-a63426cb8e6b",
+      "label": "SRR9624885",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1c4eac56-e847-56db-93b4-a9050ebb6b36",
+      "label": "SRR9624886",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f66872b6-7c82-58b6-9480-21ab806590ca",
+      "label": "SRR9624887",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7d4dab5f-414e-5a9d-80db-e1108970da74",
+      "label": "SRR9624888",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "96dcc463-0ca4-5301-8fa9-6b8b67a9c432",
+      "label": "SRR9624889",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "39182c52-6712-5db5-a44d-c73d0f706cb4",
+      "label": "SRR9624890",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ce90435d-eb86-5408-a88b-019eb5dfeb1c",
+      "label": "SRR9624891",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "08f3c1fc-20a7-528e-9473-1ee9ee04c0ba",
+      "label": "SRR9624892",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d98437ef-9184-5a88-91b2-8a421bd6d65e",
+      "label": "SRR9624893",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1ff292ee-e519-5bb0-8fe1-06be9bb68580",
+      "label": "SRR9624894",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a6118b7f-5d75-55ee-a82a-0452a0f57ed8",
+      "label": "SRR9624895",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "23b5c5fe-f6ab-50d8-b954-38659cf137ce",
+      "label": "SRR9624896",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8dcfcd31-6b53-5acd-ac21-0bb8b4f6e94d",
+      "label": "SRR9624897",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2f0cf41a-9611-5921-99eb-928e4667a9c6",
+      "label": "SRR9624898",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c0e7276b-4b20-5d67-b623-6012a34149e8",
+      "label": "SRR9624899",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "23476c9f-d99e-5acc-9aaf-78ff85305eb3",
+      "label": "SRR9624900",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c81c1353-07ce-53e0-851f-59544e6f6c18",
+      "label": "SRR9624901",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4ec68e72-8dea-5517-a186-9b05a56a3040",
+      "label": "SRR9624902",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f120842d-b5fd-5b47-b2cc-ea801e0147e1",
+      "label": "SRR9624903",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3a731f41-8ffd-515c-988d-d290a1f93b0f",
+      "label": "SRR9624904",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "30bee4db-7ed2-5754-9e2e-382592005910",
+      "label": "SRR9624905",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "413b62a9-c633-5d35-9e1e-2b6ba713a6c4",
+      "label": "SRR9624906",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "06641621-ab13-5e7f-a6eb-55df39279170",
+      "label": "SRR9624907",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f967dbcd-ed94-53d0-acdf-d17204da27b8",
+      "label": "SRR9624908",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1efcd76a-623d-53f1-8e70-38098022c099",
+      "label": "SRR9624909",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a7741693-c727-51aa-b581-ae555ceab676",
+      "label": "SRR9624910",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8415e1e5-3cb4-5adc-b5d2-78ea4a236b42",
+      "label": "SRR9624911",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f4c4b228-185b-58b1-ba49-1d3d7ea17b44",
+      "label": "SRR9624912",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "cd237356-4424-53d1-86bc-7b30a7198a47",
+      "label": "SRR9624913",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "29e08703-8a57-5639-a487-7cff0ae2caac",
+      "label": "SRR9624914",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f56a1a70-2702-51ba-a84c-2980f0cb5765",
+      "label": "SRR9624915",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f74082e9-c1a4-5c1f-ab63-6a966bad2478",
+      "label": "SRR9624916",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5ae0dffc-efcd-591d-8d35-5e3d91216aee",
+      "label": "SRR9624917",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8b77c02c-7c6d-51af-93b0-10e0369887cb",
+      "label": "SRR9624918",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "84fee75f-953e-5519-97a4-e273a9b8d49a",
+      "label": "SRR9624919",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "986c9908-23fd-51dd-88cd-d6d1cc7667a8",
+      "label": "SRR9624920",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "48df6e2e-0776-5420-841e-d4b02c109a04",
+      "label": "SRR9624921",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "56533ba0-bd6e-5dba-a223-b8fc90dd55ef",
+      "label": "SRR9624922",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "cb36b7f9-0764-5c24-b0f3-7094ddb98195",
+      "label": "SRR9624923",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "631c3909-bf75-5df8-852c-bc92073bc761",
+      "label": "SRR9624924",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "78502c47-812d-5aa3-8f39-e16144f75c40",
+      "label": "SRR9624925",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1d581b51-3fad-5595-b318-3cbe90c32284",
+      "label": "SRR9624926",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "42ac2e1e-3d96-5932-bc23-07dc0414fac9",
+      "label": "SRR9624927",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5e5d61ce-0b37-5b30-b379-e957896599aa",
+      "label": "SRR9624928",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "02e9b5ce-0537-589c-9954-2ca9c96a1499",
+      "label": "SRR9624929",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1df82730-1584-5159-93d9-fff43c31009d",
+      "label": "SRR9624930",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "907db9bf-2f38-53a5-9b78-3c61551859cf",
+      "label": "SRR9624931",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2cb47d29-7340-5439-a86d-b178b7eaf42c",
+      "label": "SRR9624932",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "55dac031-c4cd-56a1-b4fa-11fb515c34ea",
+      "label": "SRR9624933",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "11d4fcdd-b5ad-5371-8007-408701523732",
+      "label": "SRR9624934",
+      "value": 2.632326,
+      "state": "observed_positive"
+    },
+    {
+      "source_id": "64cdfe12-46f1-5fdc-980b-20c656e7e3d5",
+      "label": "SRR9624935",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "882bba78-9cba-5a1c-b92c-e1ef9c15eb00",
+      "label": "SRR9624936",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2126cb95-915a-5631-98d5-e32d932ee62b",
+      "label": "SRR9624937",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "904b37a3-830a-5bca-967a-2f5ac3909fa4",
+      "label": "SRR9624938",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0a9bf4d7-267b-5c0c-90d0-b64a9ff4b8ba",
+      "label": "SRR9624939",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "29ecde8b-7e2e-5c0d-b6a4-799b3867020e",
+      "label": "SRR9624940",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5aba3ff3-8bda-52ea-a43f-dddffd90232d",
+      "label": "SRR9624941",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ceda1587-d182-5b94-a6db-e359356b65fe",
+      "label": "SRR9624942",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "06457076-8f20-5ecf-8eef-d2296d34c615",
+      "label": "SRR9624943",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dcf58bfa-8cb7-57a6-b7a1-0541422e1d8d",
+      "label": "SRR9624944",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5030df41-b27b-5593-abf3-d47eb230e127",
+      "label": "SRR9624945",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dbf8ffc9-767b-5d74-adfb-f26306d02e47",
+      "label": "SRR9624946",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "537e0d4c-504e-5f32-94ca-50dc0ad63ba7",
+      "label": "SRR9624947",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c70fcc5f-a965-5d7a-a0ad-32fb12c23ea6",
+      "label": "SRR9624948",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "faa5f84a-36d9-5c2c-8fe4-33471b64e3f3",
+      "label": "SRR9624949",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "78274520-8fbe-598e-afd6-3792aaee425a",
+      "label": "SRR9624950",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "06d1d8ce-de71-57bd-9ca4-b70e9b8b7e03",
+      "label": "SRR9624951",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ce3487f1-0026-5711-a7b7-ef5cfc416015",
+      "label": "SRR9624952",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "20eec475-7d5f-52ad-a19b-20d1000bc17f",
+      "label": "SRR9624953",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a31b1030-1417-520e-8114-52a49281c16b",
+      "label": "SRR9624954",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d06c325f-546d-5a86-a575-336e38e4cd52",
+      "label": "SRR9624955",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0e0748bb-d218-5567-bbef-2d8a019b5b3c",
+      "label": "SRR9624956",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6d3e7609-398e-5bce-81bc-cfa102837c57",
+      "label": "SRR9624957",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d70da867-fce3-5ab7-8f8f-238d66e7839a",
+      "label": "SRR9624958",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b94105de-9585-5c7d-8149-da15297af09d",
+      "label": "SRR9624959",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fef65f72-5057-5907-b827-56b5efff44cc",
+      "label": "SRR9624960",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e60af8c3-8e42-5c98-a4d9-3bd814b2cc1a",
+      "label": "SRR9624961",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e78b98a1-c262-5e6d-a9ce-0fe2265fc515",
+      "label": "SRR9624962",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7da55f2f-3c33-5f6a-96aa-db72f7ffd3df",
+      "label": "SRR9624963",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "af7aec47-acf4-5e6d-bf23-fc22492814f3",
+      "label": "SRR9624964",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bed2e3c3-9701-5396-8c7c-de1a6dc6f9a7",
+      "label": "SRR9624965",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "158d6771-1c79-515d-9ec3-bf00f934addc",
+      "label": "SRR9624966",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5d759802-569f-5773-a8a7-d1dbd9865bad",
+      "label": "SRR9624967",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "361d8b7a-63f5-5246-8141-188f5b777628",
+      "label": "SRR9624968",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "51dd8ab5-7d4d-5865-87f8-1ffe19b0556d",
+      "label": "SRR9624969",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0db8aad6-1b10-5c9b-8f74-4e07ba0d36bd",
+      "label": "SRR9624970",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7ca1f49d-ff1c-553c-bc25-618482798a68",
+      "label": "SRR9624971",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3ef89b57-032f-5ec8-87fe-ee4abccc825d",
+      "label": "SRR9624972",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f510ab4e-72f6-5ee0-b63a-9bb2cba52ac8",
+      "label": "SRR9624973",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5ee31ae2-8cb4-53f0-b0f2-d1f12e523578",
+      "label": "SRR9624974",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "459439ad-22c0-5a4a-8269-be934a7bdebe",
+      "label": "SRR9624975",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b8edda54-f8bb-5287-a7ad-92d13e20bb84",
+      "label": "SRR9624976",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ea0f9d9e-f9ab-5489-ab4d-dfcfe16e8baf",
+      "label": "SRR9624977",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6c6d0c63-5b67-53ee-ab15-ff4bc82e1b6a",
+      "label": "SRR9624978",
+      "value": 2.210811,
+      "state": "observed_positive"
+    },
+    {
+      "source_id": "58b76d2d-a6c8-534e-a430-818596ad529f",
+      "label": "SRR9624979",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "070ba346-cd0d-579e-bb65-3d8afbae11ab",
+      "label": "SRR9624980",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "30b433cd-03cf-5d59-b050-5de1653e1691",
+      "label": "SRR9624981",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "290dd0f6-7e14-54fa-844f-a0536ead873b",
+      "label": "SRR9624982",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7ae79110-4d40-5c4f-b67f-b9f252f4726e",
+      "label": "SRR9624983",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ab9e2755-d2e2-59e2-8e03-c8fb7d801877",
+      "label": "SRR9624984",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "17770c1f-36c4-5603-a13b-07d8fcb5561b",
+      "label": "SRR9624985",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7560508a-a53f-57bf-a86c-e086a7787fde",
+      "label": "SRR9624986",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fce9b856-f082-59af-a1d3-716e3b22a2c4",
+      "label": "SRR9624987",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2df4f15b-4295-5fa4-ab3a-bdb9baadacc0",
+      "label": "SRR9624988",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ea01a052-b1a8-51fe-a45c-d374d12b1a8b",
+      "label": "SRR9624989",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "aeae88d6-ebf6-57e1-b05f-ba8ad5f1b888",
+      "label": "SRR9624990",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4dda8c39-615b-54e4-8570-84af584e361e",
+      "label": "SRR9624991",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a1d8ad61-af8c-5cd3-9463-6c6114f38e25",
+      "label": "SRR9624992",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1afc7cc0-d945-5e2a-980f-6113cb19dd09",
+      "label": "SRR9624993",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "08af7b11-c116-56df-a2de-5106527f3f33",
+      "label": "SRR9624994",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ecd2762e-0f8a-5cbb-94b8-524f97d5a0f5",
+      "label": "SRR9624995",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "089af03d-14e0-5b22-8a5d-d782e168ea44",
+      "label": "SRR9624996",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bb9893a0-57e6-534a-a8b5-500dbacdf769",
+      "label": "SRR9624997",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dff1aa0d-28ed-5974-ab7f-018a16462584",
+      "label": "SRR9624998",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a0165271-9de1-55a9-a14e-f93b5a57754c",
+      "label": "SRR9624999",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2d9c7d4d-1576-5e85-8ad0-857c5f08a5a3",
+      "label": "SRR9625000",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a7d118c7-3558-5e03-84c5-a6da95cf1512",
+      "label": "SRR9625001",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "222e529a-f736-5088-9dfa-ebc4ebaec645",
+      "label": "SRR9625002",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "580c968a-df7b-5609-8111-3f6d9c0adfe8",
+      "label": "SRR9625003",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d30870f7-8f30-597b-9b60-cdf5161758d9",
+      "label": "SRR9625004",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8a2b8625-b248-5f12-a4df-c62e895b4fb3",
+      "label": "SRR9625005",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c0d367c3-5dc9-5c8a-b31d-2e1105f9aede",
+      "label": "SRR9625006",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9ee9fb96-0096-5d66-af26-c68f598496a5",
+      "label": "SRR9625007",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "38884a79-aa2d-5ba8-a341-95b10320265a",
+      "label": "SRR9625008",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f5002293-0ce1-59fe-8657-dfa5a17c881d",
+      "label": "SRR9625009",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2cf8076b-510c-537e-bc81-89fab310b3d4",
+      "label": "SRR9625010",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "81249a95-f6df-5dc7-9c4a-6963f4244c59",
+      "label": "SRR9625011",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "711c96b0-6467-5d15-9de1-7e7de44f2cdd",
+      "label": "SRR9625012",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "cdcb1d90-7734-558a-98a9-47a070f641a3",
+      "label": "SRR9625013",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4165b0db-3453-5995-bdcb-ae4081702d0b",
+      "label": "SRR9625014",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "58dc4799-3f31-5538-8a10-4374495b4e2d",
+      "label": "SRR9625015",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "328db2f4-9838-5ec1-8553-6402bb9b3d06",
+      "label": "SRR9625016",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1e71b1e8-4c37-526e-a9d5-9b3699844375",
+      "label": "SRR9625017",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "07997350-651c-52a4-af79-3ade3a63ce5c",
+      "label": "SRR9625018",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9e09103f-87d6-542d-82e9-78ca8437ef5d",
+      "label": "SRR9625019",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e22b962f-6e33-55e6-bec8-f8a17525c65a",
+      "label": "SRR9625020",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d385ca0c-e746-573b-bbd6-b2b905508620",
+      "label": "SRR9625021",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bfbb2eec-1e00-5a5d-8f1f-eb15af3daad4",
+      "label": "SRR9625022",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9c47f472-c5ea-5fee-aaa0-74b1609a5206",
+      "label": "SRR9625023",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2120b446-395c-504c-aa6b-ac5e00bf29f9",
+      "label": "SRR9625024",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ff1de75f-e1f1-56e6-bb50-954ed338e1b9",
+      "label": "SRR9625025",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3ea2ee4c-e8c1-5866-9ba2-667407f86250",
+      "label": "SRR9625026",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e3df6514-3863-5e56-b557-8c37a69bc176",
+      "label": "SRR9625027",
+      "value": 4.328707,
+      "state": "observed_positive"
+    },
+    {
+      "source_id": "9c3d3757-3ca6-55f0-9dd3-e03e97683014",
+      "label": "SRR9625028",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "16c5bf4c-9051-5cf5-b560-1c6cd18ce615",
+      "label": "SRR9625029",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "aa6c2a0b-94d4-577c-a1da-7faeb449ee14",
+      "label": "SRR9625030",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9dc9a17e-eb68-5dd9-a013-c1273e97e12c",
+      "label": "SRR9625031",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "336b00aa-965a-5c24-958d-22d87f353db6",
+      "label": "SRR9625032",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "540d0ed9-d664-5398-b1e6-aa34b2777eef",
+      "label": "SRR9625033",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "56cdd413-601f-5217-80c8-4b31868b1255",
+      "label": "SRR9625034",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b9f91496-d203-5128-ad59-c0df5ff5ac17",
+      "label": "SRR9625035",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "debabfeb-e0b9-536e-b6e1-0462d510c756",
+      "label": "SRR9625036",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "920da3e8-1f68-5973-a827-4ed88a6bc324",
+      "label": "SRR9625037",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "85d4ad07-ab64-57d2-b7d5-f9bff3511cb9",
+      "label": "SRR9625038",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "874d42df-6866-5f5c-9eb1-af8d3b5462da",
+      "label": "SRR9625039",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d6e071d8-e8f3-55d2-a51f-7ce068c37721",
+      "label": "SRR9625040",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d4c49ab7-4452-565e-b218-914dd2531f3c",
+      "label": "SRR9625041",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "40f6bbd6-e81a-5df8-98b4-38ebf6575dad",
+      "label": "SRR9625042",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9613b3d0-c2dd-541c-b6fa-76d5480831b3",
+      "label": "SRR9625043",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c4d25146-2cf6-5154-a1ea-6797e19f8fa7",
+      "label": "SRR9625044",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "cf562c2c-4c4f-515e-94c1-c7eac8d39103",
+      "label": "SRR9625045",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c3bea794-37f0-5302-9bda-574cfa03276c",
+      "label": "SRR9625046",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "114d70c7-87ff-5eea-aa59-70a01793748b",
+      "label": "SRR9625047",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "870012f3-bbd3-5976-bcd0-5dd7cc1e2322",
+      "label": "SRR9625048",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "15518404-b78b-5e4b-b8de-1bc2e8ebee9b",
+      "label": "SRR9625049",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "507a1813-1d92-5fec-8eea-0adede3a9cd8",
+      "label": "SRR9625050",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "def089ba-f6d5-557c-917c-a970e1617730",
+      "label": "SRR9625051",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8952cb93-14ab-5c8e-8a60-46d4fd87446b",
+      "label": "SRR9625052",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0bc6fa6c-4d2b-54b1-9147-1be3724629a6",
+      "label": "SRR9625053",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6f10e1ac-5a5e-5f68-8a45-dd9a5eb855f7",
+      "label": "SRR9625054",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c1514e68-3ba4-5fe6-8ede-0336f801dcc0",
+      "label": "SRR9625055",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0cc6e4e5-93c7-5e06-8995-49005d152c4b",
+      "label": "SRR9625056",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "52d6d633-13eb-59f9-9b08-d4ac70987dc2",
+      "label": "SRR9625057",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8acc1131-3c69-5604-9f19-d19922f99304",
+      "label": "SRR9625058",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8d4c06f9-e388-588b-8c50-0d7079a390c1",
+      "label": "SRR9625059",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fceef1ac-4137-5c69-9459-385debd504ef",
+      "label": "SRR9625060",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3c670af2-7d0f-50d6-b885-304a1432c7a2",
+      "label": "SRR9625061",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7ec0a0f8-44ef-53ba-ba22-c3ccaa36567f",
+      "label": "SRR9625062",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8f973694-9b43-5480-a789-4f2f0ad7bd7f",
+      "label": "SRR9625063",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1714007d-5559-5a63-b55e-91d1709c8f55",
+      "label": "SRR10080507",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7a498d88-55e8-56dc-85d3-7a23eab767e5",
+      "label": "SRR10080508",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9fc78d06-9392-5965-be21-b394c77ff794",
+      "label": "SRR10080509",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1272431d-1907-5e7d-93a8-0fd81926a3a7",
+      "label": "SRR10080510",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d1006095-f99a-53d6-b4b7-7c42a56b0b11",
+      "label": "SRR10080511",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2dc96d7d-1b3f-5bdf-b641-59fb00a8afec",
+      "label": "SRR10080512",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e3db2a95-ad5c-5f77-81a0-9a7608d99505",
+      "label": "SRR10080513",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "163088d8-f0b8-5cff-9ca9-1494c452d350",
+      "label": "SRR10080514",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f96a0517-c420-5005-8b25-8cb5fe3c84e9",
+      "label": "SRR10080515",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "73cbd8c9-3d91-500c-8352-3dd3a41d71eb",
+      "label": "SRR10080516",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "5faaaf8a-d958-5dd7-a6f7-e7e9bbcc6bc7",
+      "label": "SRR10080517",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9b750236-5447-57fd-9c67-f31d2e6ea61d",
+      "label": "SRR10080518",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "95f78e2c-e804-555a-85d1-976e27f44158",
+      "label": "SRR10080519",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3f573665-5300-5db3-b5c6-dd78131e843d",
+      "label": "SRR10080520",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f832fb5d-6a95-5379-9c0f-4d1435de81c7",
+      "label": "SRR10080521",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b7d61749-b9d0-550c-b607-f08c362c4d3b",
+      "label": "SRR10080522",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fb7e97a4-ee3a-53f7-95db-59deb026ea50",
+      "label": "SRR10080523",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8b5781f7-cc26-54f6-b91d-d2b63915c575",
+      "label": "SRR10080524",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4fbc486a-c2a1-5c7e-be5b-491da9282fc3",
+      "label": "SRR10080525",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "65abbeef-36df-57f7-8985-9b18cfde3520",
+      "label": "SRR10080526",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f19e125e-d32c-5d18-84bd-1a9f4e6f7eb5",
+      "label": "SRR10080527",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "877e9b56-ed5f-5fd9-ab6e-3fa4108e4b12",
+      "label": "SRR10080528",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d38ba061-8803-5e11-859f-75585b3e021c",
+      "label": "SRR10080529",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3ef16467-40a6-56b1-8357-3cdc0b00367f",
+      "label": "SRR10080530",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b178e38c-4fa9-5804-bb97-1c92df0c839b",
+      "label": "SRR10080531",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f660d925-f363-59a7-b2ea-dafa7d232701",
+      "label": "SRR10080532",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c6f6674c-d3ba-5c4b-97ec-2b241e06b331",
+      "label": "SRR10080533",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1f5db3cd-6834-5686-8bcb-ea4bbf17dcb2",
+      "label": "SRR10080534",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dd3865c5-9f7d-59ab-8e8f-ed4aad397530",
+      "label": "SRR10080535",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "405af448-eff5-549a-9f5a-5a0ade5bad68",
+      "label": "SRR10080536",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6e4d799e-7c8c-5c71-aeff-ca83d914e4d7",
+      "label": "SRR10080537",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d8419477-de5c-55a3-8444-65127b673ab8",
+      "label": "SRR10080538",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4759cb07-90c0-5497-904a-87ace3168eee",
+      "label": "SRR10080539",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3e8fd841-6e49-524b-bdcb-84cbe79c68b0",
+      "label": "SRR10080540",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b277fc67-7979-5324-b257-d0351cebd05d",
+      "label": "SRR10080541",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3e49d8e7-217f-5bda-a23a-d9a1b36628d8",
+      "label": "SRR10080542",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "45bfed7a-338a-5d6c-9207-8ea033f23977",
+      "label": "SRR10080543",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "508b3714-9ed1-5f96-8da1-d9d04d56733c",
+      "label": "SRR10080544",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e4c2412c-f7aa-5615-8e8a-7286632bfa8e",
+      "label": "SRR10080545",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3da7f650-9bb6-5b37-9b8e-cf709879e2e4",
+      "label": "SRR10080546",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0d1ae50c-0f53-51d5-97a1-5ed77a3fee80",
+      "label": "SRR10080547",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0d7f682b-42df-516b-8ab6-0abe7d2778fa",
+      "label": "SRR10080548",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f4d2b66b-373a-53d0-a9ed-1bd4aa41f288",
+      "label": "SRR10080549",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a35e39a7-9a1e-5dc4-9050-a448648fa283",
+      "label": "SRR10080550",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "df7d98ba-bf55-5d3d-bc69-99a5741e6401",
+      "label": "SRR10080551",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "97323b96-1dfa-5617-8be5-14f7212c741d",
+      "label": "SRR10080552",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3c697b99-8cfc-56fd-82ab-9f5db3a2ebdb",
+      "label": "SRR10080553",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "98c8a5e3-bc6a-594d-aa05-33c05bc326c1",
+      "label": "SRR10080554",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3c88baac-6f3d-56a1-88e0-60b70809d9f3",
+      "label": "SRR10080555",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "10a0ffad-6d2f-5b57-a92a-bd34e6434fcf",
+      "label": "SRR10080556",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2af8216d-748d-5454-91b4-2a9ce146dcac",
+      "label": "SRR10080557",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2c6856f9-84eb-5411-b33e-2f90bedb8f8e",
+      "label": "SRR10080558",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "021ecde3-57b0-536f-9e8f-ed299152bc9a",
+      "label": "SRR10080559",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4dcb524e-bd31-5a75-b1d6-f3544b681ccd",
+      "label": "SRR10080560",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c89c34a9-b240-593f-af72-0c874d4eb26d",
+      "label": "SRR10080561",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7583fe49-6dcc-5787-a8a4-48af5fe41d74",
+      "label": "SRR10080562",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1465ed34-e923-5514-9db9-6a350f92775e",
+      "label": "SRR10080563",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0b415d57-518a-51ea-ae4e-011718babec3",
+      "label": "SRR10080564",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b5a2a681-2afe-5763-89d5-1106f99810cf",
+      "label": "SRR10080565",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "592d6531-56d3-5698-9ac8-ab7bfc07054e",
+      "label": "SRR10080566",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4fc20fd2-9736-5172-8288-08221e2c902d",
+      "label": "SRR10080567",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c8e21dc1-beaf-5d8d-904f-a3230ea681bb",
+      "label": "SRR10080568",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0f77fea6-44f2-5b27-bdb0-7e5fa4eb33a5",
+      "label": "SRR10080569",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "22e78ae7-f8ab-5bcc-a1f2-7db0de5583a3",
+      "label": "SRR10080570",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c8bb800b-7e45-5713-8fd7-38e25545e393",
+      "label": "SRR10080571",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ab4186dc-8d4a-560d-984c-889518ddaaad",
+      "label": "SRR10080572",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e0120355-9f83-5604-b218-59f3af833a68",
+      "label": "SRR10080573",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "abaa4dce-8899-5946-86a4-2fbbcacb5df1",
+      "label": "SRR10080574",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "440d45be-7f0b-5d3f-82d7-d656e1ff7a58",
+      "label": "SRR10080575",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "39703eef-d8ba-504f-bad6-c4fd9bd218bc",
+      "label": "SRR10080576",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e0731e58-3f3a-5a66-8b5a-c8955c90208d",
+      "label": "SRR10080577",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "05654725-5c48-5b19-bccc-4f6f942aed8d",
+      "label": "SRR10080578",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "91bb19d0-9be4-5396-a801-e69eee9eece1",
+      "label": "SRR10080579",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "60aa17bf-0b0b-5d9b-a1a9-d0869458f0ce",
+      "label": "SRR10080580",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4a133994-2c53-59e0-a7db-b9918b639f8b",
+      "label": "SRR10080581",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "193d67f1-cf4f-519d-8142-d301b1f5bd8b",
+      "label": "SRR10080582",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "aa0b9822-05aa-5e7f-b440-848516e73760",
+      "label": "SRR10080583",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b5d5a800-8677-5218-9ba1-444ea376d069",
+      "label": "SRR10080584",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6e0d3d5d-6fcb-5051-9d71-fbda76a6b659",
+      "label": "SRR10080585",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7750213f-54cb-58c1-9f03-98c9ee79d029",
+      "label": "SRR10080586",
+      "value": 0.928206,
+      "state": "observed_positive"
+    },
+    {
+      "source_id": "a6d776d1-0c65-5ee9-9cf9-852913f32b75",
+      "label": "SRR10080587",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "035e934d-e06c-520c-9477-ef68d8bf20ed",
+      "label": "SRR10080588",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e045e877-3dbd-5c0a-be9b-d2a101e78a4f",
+      "label": "SRR10080589",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2d59466b-ccca-5b8a-8de2-9a2686d30e85",
+      "label": "SRR10080590",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f41a083f-88b3-58cd-a92a-4c7533127655",
+      "label": "SRR10080591",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4b2e05bb-4592-5e72-b54b-9fb12546729d",
+      "label": "SRR10080592",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "947639ea-dfec-5039-8391-83a10df2e540",
+      "label": "SRR10080593",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fec6416f-53cd-58d7-a911-2042e4760e31",
+      "label": "SRR10080594",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e6b1b297-7ca0-52b4-894b-775a06e18b5c",
+      "label": "SRR10080595",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2acd6408-7bb5-595c-9c5f-0abf12a0a69d",
+      "label": "SRR10080596",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "74d8d255-b811-5e79-ad40-c300d9dca3cb",
+      "label": "SRR10080597",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bc3f67be-de57-5b0a-8ac2-e78f9549ae86",
+      "label": "SRR10080598",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "bb994a4b-76f4-59a1-b324-eef8415681b2",
+      "label": "SRR10080599",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "cd50895b-f0bd-5b94-a00c-7a0e274f2433",
+      "label": "SRR10080600",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e1a276c3-bf5f-5bf4-ba10-c4babff60b19",
+      "label": "SRR10080601",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0f0755bc-5a3a-5070-88a1-859fae422eed",
+      "label": "SRR10080602",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "19d57116-c3a8-5197-9573-4ceade370963",
+      "label": "SRR10080603",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "74572eec-9163-5778-9913-cb568b632a53",
+      "label": "SRR10080604",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a2bf71c8-58bc-5cd5-ab80-8113180d273d",
+      "label": "SRR10080605",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "225ff306-aceb-540f-8dfa-6dfd62e3ebf2",
+      "label": "SRR10080606",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1e379a28-a3c7-50af-83f9-40150af82f2c",
+      "label": "SRR10080607",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "01d99bd6-28ef-5c7d-8735-06b2fe42ce1f",
+      "label": "SRR10080608",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f8d14b50-5e75-5ce5-ab69-0b6c58f5652e",
+      "label": "SRR10080609",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3eb34f4a-553d-5ea2-b909-1c42d2bfacd5",
+      "label": "SRR10080610",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "00b89b1e-8aaf-5102-8429-7850c97a85fb",
+      "label": "SRR10080611",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b52e5883-546e-5c68-8d8b-b46eb3f56b12",
+      "label": "SRR10080612",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "4107179e-511e-55bf-b8a8-f51d666f4a05",
+      "label": "SRR10080613",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0518baa1-61bd-54db-9e72-40b6f21628bf",
+      "label": "SRR10080614",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "60d18520-daab-5417-8835-20dbcd33d57a",
+      "label": "SRR10080615",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "23ebc939-6acd-5837-9a41-76af87aa43b2",
+      "label": "SRR10080616",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b9cccb7f-8d72-56d3-8c5f-355222f00fc0",
+      "label": "SRR10080617",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "807f69df-7837-5887-bd52-a06dcc6ea558",
+      "label": "SRR10080618",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "ffc3a70f-8822-5394-a628-c219d2b04380",
+      "label": "SRR10080619",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d6d27ce4-4e98-5fd7-8883-87b56b77e3e2",
+      "label": "SRR10080620",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "dfcb4602-4a7e-5fd8-8e79-7d484b1479b2",
+      "label": "SRR10080621",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1628b0e1-17f0-51ae-aa5a-8e351c6bfcb4",
+      "label": "SRR10080622",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2ee02bc3-90aa-58b2-b303-001604c23d96",
+      "label": "SRR10080623",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "648e4729-7cdb-57a3-8acc-8fd37e97d02d",
+      "label": "SRR10080624",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "b9f118dc-ef73-507d-aa3c-c66bd34c43a0",
+      "label": "SRR10080625",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7233718b-1449-5921-bc57-7b38c8a93f95",
+      "label": "SRR10080626",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "307edf9a-7e4b-529b-a0b4-afe61b27e8c3",
+      "label": "SRR10080627",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "663068cb-539d-5f38-ab28-27082f093729",
+      "label": "SRR10080628",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a94d69d0-20b3-5faa-afa2-cbaf182047f0",
+      "label": "SRR10080629",
+      "value": 1.217937,
+      "state": "observed_positive"
+    },
+    {
+      "source_id": "b1df0ba8-2420-519e-b543-8a5b4267fd97",
+      "label": "SRR10080630",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3eb73fec-bedc-54c5-bf95-63cc25c569b2",
+      "label": "SRR10080631",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e1d02d3c-f520-5606-9e6d-3b5f8929c855",
+      "label": "SRR10080632",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "637c1b55-a959-559f-9729-44a00221bd7c",
+      "label": "SRR10080633",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d2bb1c1b-1f90-5b3e-ab94-fee138dfae01",
+      "label": "SRR10080634",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "9962a58e-8ee4-59bb-8436-74b4ac2ec0ea",
+      "label": "SRR10080635",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6a39f913-56d2-5ac4-bce9-d6aee3db7e01",
+      "label": "SRR10080636",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "aa2ba5df-7c08-5507-b8f7-b7fa8d523425",
+      "label": "SRR10080637",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "014d7442-7c8e-525c-abb7-ba2628fe1a57",
+      "label": "SRR10080638",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e621fb5b-cef0-56f3-a67c-8d6dff3c684e",
+      "label": "SRR10080639",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c6bb79ef-8921-5b29-acdb-66ed600ff762",
+      "label": "SRR10080640",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "38bd439f-bbdd-5288-b53b-8d531e5cb32c",
+      "label": "SRR10080641",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "fde92675-e085-58f7-ae0a-2516ffa914fd",
+      "label": "SRR10080642",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "18d92d8a-bec3-5e2a-849b-e426d71c251a",
+      "label": "SRR10080643",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8d27b8e1-5a1a-528c-97b7-0f2642a7c4ef",
+      "label": "SRR10080644",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1b28be0d-9fca-5509-849e-4b25fe8266db",
+      "label": "SRR10080645",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "3fad23c1-a723-5582-a19c-9166899cce52",
+      "label": "SRR10080646",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "18c70788-3bb1-5ec2-8489-a016eb34a05c",
+      "label": "SRR10080647",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "283e334c-e42b-5a94-b567-7ed7e02acaa3",
+      "label": "SRR10080648",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "6811ee0f-501f-53e2-895a-4f8c4e10815e",
+      "label": "SRR10080649",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "533b6fa4-8191-5a7c-aff1-76601f01f7b5",
+      "label": "SRR10080650",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "2b2e1900-34f7-5a54-b7cf-3c31e22dd8bb",
+      "label": "SRR10080651",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "34050452-99aa-5d8f-975c-19bf27227661",
+      "label": "SRR10080652",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "20688b91-df19-5e0a-aa2b-1aab562793cd",
+      "label": "SRR10080653",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7d643fe8-f43d-5c11-9ef0-d384150fc150",
+      "label": "SRR10080654",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "8efdaa7d-ef5e-5589-a735-b36b58aec295",
+      "label": "SRR10080655",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1ac3efe0-49b0-5783-82a4-11d04e76a0e8",
+      "label": "SRR10080656",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d37ad182-0f4a-58fc-8657-e2ce610bf447",
+      "label": "SRR10080657",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "07879103-c190-58fc-9343-5aae44bad35a",
+      "label": "SRR10080658",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "adce5c29-f7fd-5ac2-a820-dda00f1ea1a0",
+      "label": "SRR10080659",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "a6a6c8b9-cd42-5add-8870-2998cb796c28",
+      "label": "SRR10080660",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c7c42d58-40fb-5d19-a05b-fbb9ca86f9cc",
+      "label": "SRR10080661",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7786bed1-c356-516a-a3f7-139ed84a6f68",
+      "label": "SRR10080662",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "57aa7e32-e4b2-5359-9456-3415f8df6657",
+      "label": "SRR10080663",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7a92b3bf-fcbc-521b-84f3-965001925799",
+      "label": "SRR10080664",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f181cf9f-746f-55c2-b7fc-d9f1e40b7984",
+      "label": "SRR10080665",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "1888df9f-8477-5210-bd0e-5048a8eb7b17",
+      "label": "SRR10080666",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "256f4690-c351-5a1a-b7df-86ffbcefe3dd",
+      "label": "SRR10080667",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "7c477076-a9c3-5929-a4b7-9dca0ac65c2a",
+      "label": "SRR10080668",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f1d07bc5-d104-5eb9-bfb6-842b2dfaa980",
+      "label": "SRR10080669",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f8570d31-7f1c-5379-b11e-2ed9adf42d53",
+      "label": "SRR10080670",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "e605015d-e9cb-52ba-982e-3cc5795d358b",
+      "label": "SRR10080671",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "df087178-4acd-59c2-ae6f-853a289ef8a3",
+      "label": "SRR10080672",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "0f79ba10-eead-5158-9173-e6e25de35a08",
+      "label": "SRR10080673",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "f40aa877-d8a9-5f13-874d-f1f61d81c969",
+      "label": "SRR10080674",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "d3a6c9fc-26da-5b25-8e6d-a5fbf5ffaf35",
+      "label": "SRR10080675",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "c3a57376-ca92-5b19-8da3-a53005ad9afe",
+      "label": "SRR10080676",
+      "value": 0.0,
+      "state": "observed_zero"
+    },
+    {
+      "source_id": "98db18bd-81b7-579b-8f57-23ae8ad19edf",
+      "label": "SRR10080677",
+      "value": 0.0,
+      "state": "observed_zero"
+    }
+  ]
+}
