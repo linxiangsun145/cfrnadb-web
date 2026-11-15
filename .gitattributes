@@ -1,5 +1,5 @@
 /release/** -text
 /resource-audit/** -text
 /downloads/** -text
-/portal/assets/*.mjs text eol=lf
-/portal/assets/*.css text eol=lf
+/public-downloads.json -text
+/portal/assets/** -text
