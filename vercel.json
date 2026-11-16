@@ -58,11 +58,11 @@
     },
     {
       "source": "/v1/:path*",
-      "destination": "https://laptop-ijqrjhli.taile94b7b.ts.net/v1/:path*"
+      "destination": "https://cfrnadb-public.tailae606c.ts.net/v1/:path*"
     },
     {
       "source": "/healthz",
-      "destination": "https://laptop-ijqrjhli.taile94b7b.ts.net/healthz"
+      "destination": "https://cfrnadb-public.tailae606c.ts.net/healthz"
     }
   ],
   "headers": [
