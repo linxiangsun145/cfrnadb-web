@@ -2,6 +2,10 @@
 
 Anonymous bilingual portal: https://cfrnadb-web-hcha.vercel.app/
 
+Additional browser entrance (same approved release): https://cfrnadb-open-mirror.doublecoconut1.chatgpt.site/
+
+The original `/v1/portal/` endpoint remains available for scripts. Availability can differ by network; both entrances use the same released values, source scope and checksum-bound downloads.
+
 Public scope: four GSE133684 derived feature views (expression, coverage, promoter activity and promoter gene usage), 401 source labels; HRA000210 study-level directory only. No HRA per-label measurements or clinical metadata. ASE is excluded pending review of third-party variant annotation redistribution terms.
 
 Three source-bound resource examples include exact values, missing states, source/reference hashes, plotting code, pinned dependencies, SVG/PDF figures and reproduction ZIPs. They demonstrate resource reuse; patient/library independence and diagnostic validation are not established. KRAS has only four paired measured labels.
